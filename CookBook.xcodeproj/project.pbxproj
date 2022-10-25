@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		CE9709012905432000390B85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9709002905432000390B85 /* AppDelegate.swift */; };
 		CE9709032905432000390B85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9709022905432000390B85 /* SceneDelegate.swift */; };
-		CE9709052905432000390B85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9709042905432000390B85 /* ViewController.swift */; };
 		CE9709082905432100390B85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9709062905432100390B85 /* Main.storyboard */; };
 		CE97090A2905433100390B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9709092905433100390B85 /* Assets.xcassets */; };
 		CE97090D2905433100390B85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE97090B2905433100390B85 /* LaunchScreen.storyboard */; };
+		CE97091529054AA900390B85 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE97091429054AA900390B85 /* SignInVC.swift */; };
+		CE9709172905EBCB00390B85 /* CandyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9709162905EBCB00390B85 /* CandyVC.swift */; };
+		CEA4DBE029075D8D0023776D /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4DBDF29075D8D0023776D /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE9708FD2905432000390B85 /* CookBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9709002905432000390B85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9709022905432000390B85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE9709042905432000390B85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE9709072905432100390B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE9709092905433100390B85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE97090C2905433100390B85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE97090E2905433100390B85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE97091429054AA900390B85 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; usesTabs = 1; };
+		CE9709162905EBCB00390B85 /* CandyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyVC.swift; sourceTree = "<group>"; };
+		CEA4DBDF29075D8D0023776D /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				CE9709002905432000390B85 /* AppDelegate.swift */,
 				CE9709022905432000390B85 /* SceneDelegate.swift */,
-				CE9709042905432000390B85 /* ViewController.swift */,
 				CE9709062905432100390B85 /* Main.storyboard */,
+				CE97091429054AA900390B85 /* SignInVC.swift */,
+				CEA4DBDF29075D8D0023776D /* SignUpVC.swift */,
+				CE9709162905EBCB00390B85 /* CandyVC.swift */,
 				CE9709092905433100390B85 /* Assets.xcassets */,
 				CE97090B2905433100390B85 /* LaunchScreen.storyboard */,
 				CE97090E2905433100390B85 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9709052905432000390B85 /* ViewController.swift in Sources */,
+				CE9709172905EBCB00390B85 /* CandyVC.swift in Sources */,
 				CE9709012905432000390B85 /* AppDelegate.swift in Sources */,
 				CE9709032905432000390B85 /* SceneDelegate.swift in Sources */,
+				CEA4DBE029075D8D0023776D /* SignUpVC.swift in Sources */,
+				CE97091529054AA900390B85 /* SignInVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
